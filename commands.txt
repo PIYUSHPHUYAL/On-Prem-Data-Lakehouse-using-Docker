@@ -1,0 +1,4 @@
+### VVI COMMANDS TO KNOW
+
+# TO RUN THE analytics.sql file
+cat sql/analytics.sql | docker exec -i lakehouse-postgres psql -U lakehouse -d analytics
